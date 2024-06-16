@@ -1,0 +1,43 @@
+.div1{
+   display: inline-block;
+}.div2{
+    background-color: lightgray;
+}
+
+.vnav{
+    list-style-type: none;
+}
+.vnav li{
+    padding:10px;
+    background-color: rgba(120, 229, 193, 0.991);
+}
+.vnav li:nth-of-type(1){
+    background-color: orange;
+}
+.hnav li:nth-of-type(1){
+    background-color: darkgray;
+}
+.hnav li{
+    padding:10px;
+    display: inline-block;
+}
+.hnav{
+    list-style-type: none;
+}
+a:link{
+    color:blue;
+    text-decoration:none;
+}
+a:link:nth-of-type(1){
+    color:white;
+}
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+a:active{
+    color: rgb(251, 255, 0);
+}
+  
